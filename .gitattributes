@@ -1,0 +1,7 @@
+secretfile filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
+secretdir/** filter=git-crypt diff=git-crypt
+
+# to hide any file for example application.properties
+# .gitattributes follows same pattern as .gitignore for files in repository
+application.properties filter=git-crypt diff=git-crypt
